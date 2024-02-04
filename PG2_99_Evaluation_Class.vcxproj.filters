@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="KamataEngine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="KamataEngine\Source">
+      <UniqueIdentifier>{d966e9f8-e880-44ae-8586-a08515e4cffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KamataEngine\Include">
+      <UniqueIdentifier>{4aae4e40-94f7-4d32-9a91-c0c37a2edf0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KamataEngine\Adapter">
+      <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NovicePluGs">
+      <UniqueIdentifier>{0960b32c-106d-42ae-9308-beb46b7819a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NovicePluGs\Component">
+      <UniqueIdentifier>{29b910b8-74a3-41a6-8124-5011d66ca8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NovicePluGs\Kernel">
+      <UniqueIdentifier>{b6f139f3-6faf-4033-a0fe-b34311deb04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NovicePluGs\Math">
+      <UniqueIdentifier>{8f1f37fb-d707-4c82-9506-6f77e0888a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs">
+      <UniqueIdentifier>{c263512e-4d96-41d0-bee2-8b15a3a0d769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Game">
+      <UniqueIdentifier>{30ebf5cb-0a74-4337-98b5-dd529618ae1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Game\Player">
+      <UniqueIdentifier>{87e10173-78eb-42df-a08c-69ddc084f384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Game\Enemy">
+      <UniqueIdentifier>{14080551-b74c-47ea-8f00-64800583a582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Game\Bullet">
+      <UniqueIdentifier>{8549ac1e-225d-48b2-8b30-2987c0cefd53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Title">
+      <UniqueIdentifier>{ac691959-d4bb-4237-b142-33d52e87aa74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Result">
+      <UniqueIdentifier>{24738a95-9b2d-424f-9380-8d8c3e89e840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\TextureManager.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\scene\GameScene.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
+      <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Component\MapchipEditer.cpp">
+      <Filter>NovicePluGs\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Component\MapchipModule.cpp">
+      <Filter>NovicePluGs\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Component\Particle.cpp">
+      <Filter>NovicePluGs\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\BaseScene.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\BaseSceneTransition.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\Debug.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\DebugGUI.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\DeviceData.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\GameCamera.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\GameInput.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\GameSoundManager.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\GameTextureManager.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\NovicePluGs.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\RandomSystem.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\Renderer.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\RenderingObjects2D.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\SceneChange.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\SceneManager.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Kernel\ThreadLoad.cpp">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Collider2D.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Collision.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Color.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Definition.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Easing.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Matrix.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Transform2D.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\Vector2d.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NovicePluGs\Math\DoubleFlag.cpp">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Enemy.cpp">
+      <Filter>Programs\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\EnemyManager.cpp">
+      <Filter>Programs\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Bullet.cpp">
+      <Filter>Programs\Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Player.cpp">
+      <Filter>Programs\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\BaseObject.cpp">
+      <Filter>Programs\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Game.cpp">
+      <Filter>Programs\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\GameData.cpp">
+      <Filter>Programs\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Result.cpp">
+      <Filter>Programs\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Title.cpp">
+      <Filter>Programs\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Moment.cpp">
+      <Filter>Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\BoxFall.cpp">
+      <Filter>Programs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\DebugText.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Model.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\SafeDelete.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\Sprite.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\TextureManager.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\ViewProjection.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\WinApp.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\WorldTransform.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\Adapter\Novice.h">
+      <Filter>KamataEngine\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\CircleShadow.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\DebugCamera.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\DirectionalLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\LightGroup.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Material.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Mesh.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\PointLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\SpotLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector3.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector4.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Component\MapchipEditer.h">
+      <Filter>NovicePluGs\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Component\MapchipModule.h">
+      <Filter>NovicePluGs\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Component\Particle.h">
+      <Filter>NovicePluGs\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\BaseScene.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\BaseSceneTransition.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\Debug.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\DebugGUI.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\DeviceData.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\GameCamera.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\GameInput.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\GameSoundManager.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\GameTextureManager.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\NovicePluGs.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\RandomSystem.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\Renderer.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\RenderingObjects2D.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\SceneChange.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\SceneManager.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Kernel\ThreadLoad.h">
+      <Filter>NovicePluGs\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Collider2D.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Collision.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Color.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Definition.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Easing.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Matrix.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Transform2D.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\Vector2d.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NovicePluGs\Math\DoubleFlag.h">
+      <Filter>NovicePluGs\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Enemy.h">
+      <Filter>Programs\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\EnemyManager.h">
+      <Filter>Programs\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Bullet.h">
+      <Filter>Programs\Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Player.h">
+      <Filter>Programs\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\BaseObject.h">
+      <Filter>Programs\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Game.h">
+      <Filter>Programs\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\GameData.h">
+      <Filter>Programs\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Result.h">
+      <Filter>Programs\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Title.h">
+      <Filter>Programs\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Moment.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\BoxFall.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
